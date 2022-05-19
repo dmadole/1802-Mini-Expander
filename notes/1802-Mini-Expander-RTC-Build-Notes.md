@@ -8,13 +8,13 @@ Please review all jumper settings before trying to operate the board. In particu
 
 Note that there are two different types of diodes on this board, 1N4148 switching diodes and 1N4622 zener diodes. Please be sure to install the correct diodes in the correct locations. The 1N4148 diodes are typically clear glass with orange internal contacts and install at D1-5, and the 1N4622 diodes are opaque black or gray and install at D6-7.
 
-### Port Expander Configuration
+## Port Expander Configuration
 
 The port expander uses a single I/O port which is set by the `EXP ADDR` jumpers by selecting the appropriately labeled address values. Valid values are 1-7, do not set all jumpers to 0.
 
 The port expander implements the low four bits of this port and maps them to the `01`, `02`, `04`, and `08` expander bus pins as active-low. When none of the bits are set the `00` pin on the expander bus will be active; the register will be cleared to 00 when the system is reset.
 
-### Real Time Clock Configuration
+## Real Time Clock Configuration
 
 The RTC uses a single I/O port which is set by the `RTC ADDR` jumpers by selecting the appropriately labeled address values. Valid values are 1-7, do not set all jumpers to 0.
 

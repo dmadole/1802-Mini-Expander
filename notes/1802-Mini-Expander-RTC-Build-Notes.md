@@ -54,4 +54,4 @@ The `ENA/DIS` jumper determines whether the expansion memory will be enabled (ju
 
 The following diagrams, based upon the example of a 2K split size, may help to clarify:
 
-![Jumper Settings](https://github.com/dmadole/1802-Mini-Expander-RTC/raw/master/notes/1802-mini-memory-expander-configuration.png)
+![Jumper Settings](https://github.com/dmadole/1802-Mini-Expander-RTC/raw/main/notes/1802-mini-memory-expander-configuration.png)

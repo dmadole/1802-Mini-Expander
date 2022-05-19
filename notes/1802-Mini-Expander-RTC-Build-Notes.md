@@ -52,3 +52,6 @@ The `UND/OVR` jumper selects whether the expansion memory is "under" or "over" t
 
 The `ENA/DIS` jumper determines whether the expansion memory will be enabled (jumper to `ENA`) or disabled (jumper to `DIS`) at reset. When disabled, the on-processor memory will occupy all of the memory block.
 
+The following diagrams, based upon the example of a 2K split size, may help to clarify:
+
+![Jumper Settings](https://github.com/dmadole/1802-Mini-Expander-RTC/raw/master/notes/1802-mini-memory-expander-configuration.png)

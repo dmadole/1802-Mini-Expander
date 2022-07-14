@@ -22,7 +22,9 @@ The software control can be used to implement bank switching, such a 32K ROM tha
 * 1.3uA standby current gives approximately 5 years battery life
 * Uses one I/O port 1-7 which is two-level group addressable
 
-I have written a loadable driver that presents the “standard” interface to Elf/OS 4 to enable date and time. The same code could be put into ROM if needed.
+I have written a loadable driver that presents the “standard” interface to Elf/OS 4 to enable date and time, and there is also a new BIOS that supports all features of this card available here:
+
+> https://github.com/dmadole/1802-Mini/tree/master/firmware
 
 ### Port Expander
 
